@@ -1,0 +1,7 @@
+.error{
+    height: 40px;
+    width: 2px;
+    border-radius: 2px;
+    background-color: rgb(170, 170, 170);
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+.error{
+    box-sizing: border-box;
+    background: rgb(245, 247, 248);
+    color: #414141;
+    box-shadow: 0 0 25px #00000017;
+
+    width: 55vw;
+    max-width: 1000px;
+    height: 70vh;
+    max-height: 562.5px;
+
+    border-radius: 3px;
+    padding: 20px 40px;
+}
+
+
+.error h1{
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(204, 204, 204);
+
+}
+
+@media(max-width: 1000px){
+    .error{
+        width: 80vw;
+    }
+}

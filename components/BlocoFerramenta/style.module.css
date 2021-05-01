@@ -1,0 +1,45 @@
+.bloco{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    display: inline-block;
+
+    margin: 0; padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco:hover{
+    background: #ccc;
+}
+
+.bloco i{
+    font-size: 1.3rem;
+}
+
+
+.bloco a{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: none;
+    position: relative;
+    top: -15px;
+    right: -5px;
+}
+
+.yellow{
+    background: #FFB900;
+    display: flex !important;
+}
+
+.orange{
+    background: #F7630C; 
+    display: flex !important;
+}
+
+.red{
+    background: #E81123; 
+    display: flex !important;
+}
