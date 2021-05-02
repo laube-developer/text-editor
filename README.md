@@ -1,3 +1,9 @@
+Tem-se em mente que é muito fácil criar um editor de texto do 0, entretanto, quando objetivamos o aprimoramento pessoal com esmero, fica fácil sim hehehe...
+
+## Simples, Prático e Elegante
+Desenvolvi seu visual com foco em produtividade, com elementos simples da interface do usuário.
+<img src='https://github.com/laube-developer/text-editor/editor.png'>
+
 Isso é um projeto [Next.js](https://nextjs.org/) desenvolvido com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Desde o Início
