@@ -19,18 +19,33 @@
     color: #414141;
     box-shadow: 0 0 25px #0000003a;
     border-radius: 3px;
-    padding: 0 40px;
+    padding: 15px 40px;
     
-    width: 30vw;
+    width: 40vw;
     max-width: 1000px;
     height: 30vh;
     max-height: 562.5px;
 }
 
-.none{
-    display: none;
+@media(max-width: 1000px){
+    .Menu{
+        width: 60vw;
+    }
 }
 
-.flex{
+.header{
+    height: 2rem;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h3{
+    display: inline-block;
+}
+
+.scrollBox{
+    height: 75%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
 }

@@ -1,8 +1,13 @@
 import style from './style.module.css'
 
 export default function BlocoFerramenta(props){
+    function subirClick(){
+        if(props.handleClick){
+            props.handleClick()
+        }
+    }
     return (
-        <div className={style.bloco}>
+        <div className={style.bloco} onDoubleClick={subirClick}>
             <i className={props.classe}></i>
             <a className={"color "+style[props.color]}></a>
         </div>

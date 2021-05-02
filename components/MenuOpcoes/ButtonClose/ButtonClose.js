@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 export default function ButtonClose(props){
     return (
-        <div className={style.ButtonClose}>
-            <i className="fas fa-times">a</i>
+        <div className={style.ButtonClose} onClick={()=>{props.handleClick()}}>
+            <i className="fas fa-times"></i>
         </div>
     )
 }
