@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from './style.module.css'
 
 import BarraDeFerramentas from '../BarraDeFerramentas/BarraDeFerramentas'
@@ -10,7 +10,7 @@ function NotaBloco(props){
         <div className={styles.error}>
             <BarraDeFerramentas/>
             <div id='titulo'><h1>{props.titulo}</h1></div>
-            <MenuOpcoes show='flex'/>
+            <MenuOpcoes show='none'/>
         </div>
     )
 }

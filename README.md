@@ -20,7 +20,7 @@ A pasta `pages/api` mapeia `/api/*`. Arquivos dentro dessa pasta são tratados c
 
 ## Aprendendo Mais
 
-Para aprende mais sobre Next.js, dê uma olhada nos links abaixo:
+Para aprender mais sobre Next.js, dê uma olhada nos links abaixo:
 
 - [Next.js Documentation](https://nextjs.org/docs) - aprenda sobre Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - um turorial interativo de Next.js tutorial.

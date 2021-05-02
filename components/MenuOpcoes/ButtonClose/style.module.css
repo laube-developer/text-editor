@@ -1,0 +1,17 @@
+.ButtonClose{
+
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ButtonClose i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.ButtonClose i:hover{
+    color: #646464;
+}
