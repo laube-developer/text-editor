@@ -23,9 +23,8 @@
     
     width: 40vw;
     max-width: 1000px;
-    height: 90vh;
+    height: 60vh;
     max-height: 562.5px;
-    background: rgb(18, 211, 0);
 }
 
 @media(max-width: 1000px){
