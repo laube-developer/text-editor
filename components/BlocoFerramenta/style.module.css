@@ -27,11 +27,9 @@
     position: relative;
     top: -15px;
     right: -5px;
-<<<<<<< HEAD
 
     display: flex;
 }
-
 
 .Preto{
     background: black;
@@ -39,9 +37,6 @@
 
 .Cinza{
     background: #414141;
-=======
-    border:3px solid rgb(245, 247, 248) ;
->>>>>>> c5b90e6e5aec357b6100b98f13032a2c18527e51
 }
 
 .Roxo{
