@@ -8,9 +8,13 @@
     border-radius: 3px;
     
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 30vh auto;
+
+    grid-template-areas: "." "Menu";
+
+    background: rgba(0, 0, 0, 0.164);
 }
 
 .Menu{
@@ -20,11 +24,14 @@
     box-shadow: 0 0 25px #0000003a;
     border-radius: 3px;
     padding: 15px 40px;
+    margin: 0 auto;
     
     width: 40vw;
     max-width: 1000px;
-    height: 60vh;
-    max-height: 562.5px;
+    min-height: 20vh;
+    max-height: 40vh;
+
+    grid-area: Menu;
 }
 
 @media(max-width: 1000px){

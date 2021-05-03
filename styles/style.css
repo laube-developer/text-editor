@@ -11,8 +11,30 @@ body, html, #root{
 
 body{
     display: flex;
+    height: 100vh;
+    background: rgb(228, 228, 228);
+
+    overflow-x: hidden;
+}
+
+.content{
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: rgb(228, 228, 228);
+}
+
+.sobreArticle{
+    box-sizing: border-box;
+    background: rgb(245, 247, 248);
+    color: #414141;
+    box-shadow: 0 0 25px #00000017;
+
+    width: 55vw;
+    max-width: 1000px;
+    height: 70vh;
+    max-height: 562.5px;
+
+    border-radius: 3px;
+    padding: 20px 40px;
 }

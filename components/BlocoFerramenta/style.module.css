@@ -27,19 +27,67 @@
     position: relative;
     top: -15px;
     right: -5px;
+
+    display: flex;
 }
 
-.yellow{
+
+.Preto{
+    background: black;
+}
+
+.Cinza{
+    background: #414141;
+}
+
+.Roxo{
+    background: #512DA8;
+}
+
+.Azul{
+    background: #1322c7;
+}
+
+.Verde{
+    background: #51b401;
+}
+
+.Amarelo{
     background: #FFB900;
-    display: flex !important;
 }
 
-.orange{
+.Laranja{
     background: #F7630C; 
-    display: flex !important;
 }
 
-.red{
+.Vermelho{
     background: #E81123; 
-    display: flex !important;
+}
+
+.bg_Cinza{
+    background: #41414165;
+}
+
+.bg_Roxo{
+    background: #512DA865;
+}
+
+.bg_Azul{
+    background: #1322c765;
+}
+
+.bg_Verde{
+    background: #52b40165;
+}
+
+.bg_Amarelo{
+    background: #FFB90065;
+}
+
+.bg_Laranja{
+    background: #F7630C65; 
+}
+
+.bg_Vermelho{
+    background: #E8112365; 
 }

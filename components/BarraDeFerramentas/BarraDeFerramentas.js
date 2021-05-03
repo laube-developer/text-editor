@@ -13,9 +13,9 @@ export default function BarraDeFerramentas(props){
             <DivisaoBlocos/>
             <BlocoFerramenta classe='fas fa-underline'/>
             <DivisaoBlocos/>
-            <BlocoFerramenta classe='fas fa-paint-roller'color='yellow' handleClick={()=>{props.handleAtivaMenu('Cor do Texto')}}/>
+            <BlocoFerramenta classe='fas fa-paint-roller' color={props.state.colorAtivo} handleClick={()=>{props.handleAtivaMenu('Cor do Texto')}}/>
             <DivisaoBlocos/>
-            <BlocoFerramenta classe='fas fa-marker'color='yellow' handleClick={()=>{props.handleAtivaMenu('Background')}}/>
+            <BlocoFerramenta classe='fas fa-marker' color={props.state.bgAtivo} handleClick={()=>{props.handleAtivaMenu('Background')}}/>
 
         </div>
     )

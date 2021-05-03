@@ -1,0 +1,23 @@
+.Footer{
+    z-index: 20;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 5rem;
+
+
+    background: #414141;
+    color: rgb(226, 233, 235);
+    font-weight: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+    gap: 5vw;
+}
+
+.Footer i {
+    margin: 0 1rem;
+}

@@ -9,7 +9,7 @@ export default function BlocoFerramenta(props){
     return (
         <div className={style.bloco} onDoubleClick={subirClick}>
             <i className={props.classe}></i>
-            <a className={"color "+style[props.color]}></a>
+            <a className={style[props.color]}></a>
         </div>
     )
 }
