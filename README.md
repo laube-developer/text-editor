@@ -1,12 +1,25 @@
+## [Editor de Texto](https://text-editor-weld.vercel.app/)
+
 Tem-se em mente que é muito fácil criar um editor de texto do 0, entretanto, quando objetivamos o aprimoramento pessoal com esmero, fica fácil sim hehehe...
 
 ## Simples, Prático e Elegante
 Desenvolvi seu visual com foco em produtividade, com elementos simples da interface do usuário.
+
 <img src='https://github.com/laube-developer/text-editor/blob/master/editor.png'>
+
+## Experiência do projeto...
+
+Posso dizer que aprendi *MUITO* com esse projeto. Ainda está em desenvolvimento, apesar de eu já ter aprendido bastante sobre React, Next.js, a plataforma da Vercel, Git e GitLens. 
+
+
+
+
+
+
 
 Isso é um projeto [Next.js](https://nextjs.org/) desenvolvido com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Desde o Início
+## Desde o Início com [`Next.js`](https://nextjs.org/) e [`Vercel`](https://vercel.com/)
 
 Primeiro, inicie o servidor de desenvolvimento:
 
