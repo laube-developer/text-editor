@@ -5,7 +5,8 @@ Tem-se em mente que é muito fácil criar um editor de texto do 0, entretanto, q
 ## Simples, Prático e Elegante
 Desenvolvi seu visual com foco em produtividade, com elementos simples da interface do usuário.
 
-<img src='https://github.com/laube-developer/text-editor/blob/master/editor.png'>
+<img src='https://github.com/laube-developer/text-editor/blob/master/editor2.png'>
+
 
 ## Experiência do projeto...
 
