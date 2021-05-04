@@ -17,11 +17,21 @@ body{
     overflow-x: hidden;
 }
 
-.content{
+.contentIndex{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 90vh;
+    height: auto;
+    padding-top: 3rem;
+}
+
+.contentSobre{
+    display: flex;
+    justify-content: center;
+    min-height: 87vh;
+    height: auto;
+    padding-top: 5rem;
 }
 
 .sobreArticle{
@@ -30,11 +40,15 @@ body{
     color: #414141;
     box-shadow: 0 0 25px #00000017;
 
-    width: 55vw;
+    width: 60vw;
     max-width: 1000px;
-    height: 70vh;
+    height: auto;
     max-height: 562.5px;
 
-    border-radius: 3px;
     padding: 20px 40px;
+}
+
+.sobreArticle h1{
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(204, 204, 204);
 }

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <div className="content">
+      <div className="contentIndex">
         <NotaBloco titulo='Título da minha nota'/>
         <script src="https://kit.fontawesome.com/9cc6fa156c.js" crossOrigin="anonymous"></script>
       </div>
