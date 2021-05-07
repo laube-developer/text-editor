@@ -4,6 +4,7 @@ import styles from './style.module.css'
 
 import BarraDeFerramentas from '../BarraDeFerramentas/BarraDeFerramentas'
 import MenuOpcoes from '../MenuOpcoes/MenuOpcoes'
+import TextBox from './TextBox'
 
 function NotaBloco(props){
     const [stateMenu, setStateMenu] = useState({
@@ -13,6 +14,7 @@ function NotaBloco(props){
         colorAtivo: "Vermelho",
         bgAtivo: "Amarelo"
     })
+
 
     function atualizaEstado(tipo, hAtivo, corAtivo, bgAtivo){
         let estado = {
@@ -27,10 +29,11 @@ function NotaBloco(props){
     }
 
     return (
-        <div className={styles.error}>
+        <div className={styles.NotaBloco}>
             <BarraDeFerramentas handleAtivaMenu={atualizaEstado} state={stateMenu}/>
             <div id='titulo'><h1>{props.titulo}</h1></div>
             <MenuOpcoes state={stateMenu} handleAtivaMenu={atualizaEstado}/>
+            <TextBox className={styles.TextBox}></TextBox>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-.error{
+.NotaBloco{
     box-sizing: border-box;
     background: rgb(245, 247, 248);
     color: #414141;
@@ -6,11 +6,10 @@
 
     width: 55vw;
     max-width: 1000px;
-    height: 70vh;
-    max-height: 562.5px;
+    min-height: 70vh;
 
     border-radius: 3px;
-    padding: 20px 40px;
+    padding: 20px 40px 50px 40px;
 }
 
 
@@ -23,4 +22,42 @@
     .error{
         width: 80vw;
     }
+}
+.TextBox{
+    height: 60%;
+    outline: none;
+}
+
+/* Types of content */
+.Linha{
+    margin: .3rem 0;
+    border: none;
+    width: 100%;
+    overflow-x: visible;
+    outline: none;
+}
+.h1{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.h2{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.p{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.NotaBloco b{
+    font-weight: 600;
+}
+.TextBox i{
+    font-style: italic;
 }
